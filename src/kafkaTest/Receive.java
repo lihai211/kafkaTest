@@ -47,7 +47,7 @@ public class Receive implements Runnable{
     * @param ipStr       需要从那个IP上读取数据
     * @param fromServer    从哪个主机上读取数据，该主机名
     */
-   public void init(int port,String fromServer){
+   public void init(int port,String fromServer) {
        
        ZMQ.Context context = ZMQ.context(1);  
        // Socket to talk to clients

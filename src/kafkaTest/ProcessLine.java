@@ -115,11 +115,8 @@ public class ProcessLine implements Runnable {
                 // 如果队列中已经有数据了，再进入此循环，说明队列中的数据已经空了。将标志设置为-1，跳出循环。  
                 if ((flag == 2) && (receive.getIfReceiveFinished()==2)){
                     flag = -1;
-                    // System.out.println("-------from Process Line||||send message from Queue,count num="+produerMessageNum+"  port="+port);
-
-                    // System.out.println("-------from Process line|||ZMQ receive message number is:"+receive.getCount()+"  from port:"+receivePort+"\treal receive count="+receive.getReceiveCount());
                     /**
-                     * 此时消息队列为空了，继续发送一次。通知producer发soon个其内部缓存队列中残存的消息
+                     * 此时消息队列为空了，继续发送一次。通知producer发送其内部缓存队列中残存的消息
                      */
                     producer.send(topicName, msgQueue, begin);
 

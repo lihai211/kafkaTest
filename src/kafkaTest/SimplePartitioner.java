@@ -14,6 +14,7 @@ import kafka.utils.VerifiableProperties;
 
 /**
  * kafka的producer发送消息 分区 辅助类
+ * 可以重载原始的Partitioner 实现自己的分区
  * 
  * @author xiatao
  * @date 2015年9月17日
