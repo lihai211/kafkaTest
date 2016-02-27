@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Oct 23 15:55:29 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=ZhangShuoKafka.jar
+manifest.mergeall=true
+manifest.mainclass=kafkaTest.GdProducer
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=<inc|kafkaTest/config>

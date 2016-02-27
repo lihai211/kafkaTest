@@ -1,0 +1,8 @@
+java -jar -Djava.library.path=/usr/local/lib SocketReader.jar 
+
+java -jar -Djava.library.path=/usr/local/lib  zmqClient.jar 
+
+
+
+
+
