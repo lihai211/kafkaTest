@@ -9,6 +9,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import tool.util.ReadProperties;
+
 /**
  * 
  * TODO 项目的执行主类。main函数入口类。

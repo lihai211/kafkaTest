@@ -3,7 +3,7 @@
  * History:
  * v1.0.0, xiatao, 2015年10月23日, Create
  */
-package zeromq;
+package tool.util;
 
 import java.io.BufferedReader;
 import java.io.File;

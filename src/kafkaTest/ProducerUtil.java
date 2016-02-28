@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 import kafka.producer.KeyedMessage;
 import kafka.javaapi.producer.Producer;
 import kafka.producer.ProducerConfig;
+import tool.util.ReadProperties;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

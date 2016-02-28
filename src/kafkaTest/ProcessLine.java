@@ -7,6 +7,8 @@ package kafkaTest;
 import java.util.Properties;
 import java.util.concurrent.ArrayBlockingQueue;
 
+import tool.util.ReadProperties;
+
 /**
  * 将从端口收到数据，用producer发送数据，consumer消费数据，整个过程定义为一条ProcessLine。顺序执行，整个流程为一个线程
  */

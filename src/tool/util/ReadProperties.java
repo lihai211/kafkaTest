@@ -3,7 +3,7 @@
 *author:    夏涛
 *Create Time:2015年8月20日
 */
-package kafkaTest;
+package tool.util;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
