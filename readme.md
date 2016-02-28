@@ -1,7 +1,10 @@
 ## 说明
-      此代码为测试kafka收发数据性能，仅测试了kafka producer发送数据性能，Consumer部分代码已经完成（被注释，没有执行）。
+   
+   此代码为测试kafka收发数据性能，仅测试了kafka producer发送数据性能，Consumer部分代码已经完成（被注释，没有执行）。
+   
 ##  测试数据
-      总数: 188181条，平均每条大小 467字节
+  
+   总数: 188181条，平均每条大小 467字节
 
 ## Kafka集群配置：
    <ol> 
@@ -11,8 +14,8 @@
     </ol>    
     
 ##  使用的框架:
-   <p>ZeroMQ ( PUB / SUB)</p>    
-     Kafka Producer (接收来自ZeroMQ的消息，放入本地的缓存队列（最大容量为100万，Producer使用线程池发送消息到kafka集群（3台主机）），线程池核心线程数200，最大线程数1000，缓存任务队列2000)
+   <p>ZeroMQ ( PUB / SUB)</p>
+   Kafka Producer (接收来自ZeroMQ的消息，放入本地的缓存队列（最大容量为100万，Producer使用线程池发送消息到kafka集群（3台主机）），线程池核心线程数200，最大线程数1000，缓存任务队列2000)
      <p> Consumer：3个partition，每个partition 4个线程去消费</p>
 
 ##  结果：
