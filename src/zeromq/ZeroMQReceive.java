@@ -5,23 +5,16 @@
  */
 package zeromq;
 
-
-/**
- * TODO
- * @author xiatao
- * @date 2015年10月23日
- *
- */
 import java.io.PrintWriter;
 import java.io.StringWriter;
  
 import org.zeromq.ZMQ;
  
-//
-// Hello World server in Java
-// Binds REP socket to tcp://*:5555
-// Expects "Hello" from client, replies with "World"
-//
+/**
+ * Hello World server in Java
+* Binds REP socket to tcp://*:5555
+* Expects "Hello" from client, replies with "World"
+*/
  
 public class ZeroMQReceive {
  
