@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2008-2015 浩瀚深度 All Rights Reserved.
  * 
  * FileName: MyExecutorReject.java
  * 

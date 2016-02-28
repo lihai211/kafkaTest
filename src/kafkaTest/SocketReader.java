@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2014-2018 浩瀚深度 All Rights Reserved.
  * 
  * author: 夏涛 Create Time:2015年8月17日
  */

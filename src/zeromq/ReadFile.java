@@ -1,9 +1,4 @@
 /**
- * Copyright (c) 2008-2015 浩瀚深度 All Rights Reserved.
- * 
- * FileName: ReadFile.java
- * 
- * Description: TODO
  * 
  * History:
  * v1.0.0, xiatao, 2015年10月23日, Create
